@@ -5,6 +5,7 @@
 using namespace std;
 int main()
 {
+  cout<<"h";
   Cpartida prueba;
   prueba.ejecutarPartida();
   
