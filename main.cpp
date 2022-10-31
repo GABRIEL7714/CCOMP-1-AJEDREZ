@@ -7,6 +7,7 @@ int main()
 {
   cout<<"h";
   cout<<"k";
+  cout<<"l";
   Cpartida prueba;
   prueba.ejecutarPartida();
   
