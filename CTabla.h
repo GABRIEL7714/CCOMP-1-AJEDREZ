@@ -19,7 +19,7 @@ private:
   CPieza** listaPieza;
 public:
   CTabla;
-  ~Tabla();
+  ~CTabla();
   void imprimirTabla();
   bool posicionValida(string pos) const;
   Cpieza* buscarPieza(int y, int x);
