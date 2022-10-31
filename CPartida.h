@@ -12,8 +12,8 @@ class CPartida {
     bool turno;  // true: Piezas blancas, false: Piezas negras
 public:
     CPartida();
-    ~CPartida() = default;
-    void anunciarGanador() const;
+    ~CPartida();
+    void anunciarGanador();
     void ejecutarMovimiento();
     void ejecutarPartida();
 };
