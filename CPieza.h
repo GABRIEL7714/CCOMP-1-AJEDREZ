@@ -4,7 +4,7 @@
 #include "Header.h"
 
 class CPieza {
-protected:
+private:
     int posX;
     int posY;
     char color;
