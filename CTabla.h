@@ -1,5 +1,5 @@
 #ifndef CTABLA_H
-#definde CTABLA_H
+#define CTABLA_H
 
 #include "Header.h"
 #include "CPieza.h"
