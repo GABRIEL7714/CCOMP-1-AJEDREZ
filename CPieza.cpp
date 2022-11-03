@@ -1,9 +1,9 @@
 #include "CPieza.h"
 
-CPieza::CPieza(): posX{0}, posY{0}, color{'B'}, icono{"pB"} {}
+CPieza::CPieza(): posX{0}, posY{0}, color{'B'}, icono{"♟B"} {}
 
 CPieza::CPieza(int y, int x, char c): posY{y}, posX{x}, color(c) {
-    icono = "p";
+    icono = "♟";
     icono.push_back(color);
 }
 
