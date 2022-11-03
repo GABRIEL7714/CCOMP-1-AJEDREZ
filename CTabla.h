@@ -18,7 +18,7 @@ private:
   unsigned int numPiezas;
   CPieza** listaPieza;
 public:
-  CTabla;
+  CTabla();
   ~CTabla();
   void imprimirTabla();
   bool posicionValida(string pos) const;
