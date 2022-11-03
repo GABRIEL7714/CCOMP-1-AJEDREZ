@@ -17,5 +17,4 @@ public:
     void ejecutarMovimiento();
     void ejecutarPartida();
 };
-
 #endif
