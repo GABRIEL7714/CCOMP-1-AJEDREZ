@@ -12,12 +12,12 @@ protected:
 public:
     CPieza();
     CPieza(int y, int x, char c);
-    virtual ~CPieza() = default;
+    virtual ~CPieza();
     void setPosX(int x);
     void setPosY(int y);
-    int getPosX() const;
-    int getPosY() const;
-    char getColor() const;
+    int getPosX() ;
+    int getPosY() ;
+    char getColor() ;
     string getIcono();
     virtual bool confirmarMovimiento(int y, int x, CPieza* casilla) = 0;
 };
