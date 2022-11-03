@@ -11,10 +11,10 @@ void CPieza::setPosX(int x) {posX = x;}
 
 void CPieza::setPosY(int y) {posY = y;}
 
-int CPieza::getPosX() const {return posX;}
+int CPieza::getPosX() {return posX;}
 
-int CPieza::getPosY() const {return posY;}
+int CPieza::getPosY() {return posY;}
 
-char CPieza::getColor() const {return color;}
+char CPieza::getColor() {return color;}
 
 string CPieza::getIcono() {return icono;}
