@@ -24,3 +24,5 @@ public:
   bool posicionValida(string pos) const;
   Cpieza* buscarPieza(int y, int x);
 };
+
+#endif 
